@@ -5,7 +5,11 @@
     <title>sirConnorDotCom</title>
   </head>
 <p>Example ass video<p>
-<video width='320' height='240'>
+<video id="Flashbacks" width='320' height='240' autoplay>
+<script>
+var vid = document.getElementById("Flashbacks");
+vid.volume = 0.1;
+</script>
   <source src="Videos/Flashbacks.mp4" type='video/mp4'>
   </video>
 </html>
